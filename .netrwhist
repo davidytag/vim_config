@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/dtag/vagrant/dev/Hosted/admin/classes'
+let g:netrw_dirhist_2='/Library/Preferences/VMware Fusion'
+let g:netrw_dirhist_3='/Library/Preferences/VMware Fusion/vmnet8'
+let g:netrw_dirhist_4='/Users/dtag/vagrant/dev/Hosted'
+let g:netrw_dirhist_5='/Library/Preferences/VMware Fusion'
+let g:netrw_dirhist_6='/Library/Preferences/VMware Fusion/vmnet8'
+let g:netrw_dirhist_7='/Library/Preferences/VMware Fusion'
+let g:netrw_dirhist_8='/Users/dtag/vagrant/dev/ember-app/node_modules/ember-cli-datepicker'
+let g:netrw_dirhist_9='/Users/dtag/vagrant/dev/ember-app/app/components/ac-field-edit-modal'
