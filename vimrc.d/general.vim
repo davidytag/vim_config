@@ -1,6 +1,7 @@
 set nocompatible
 set pastetoggle=,,p
 set clipboard=unnamed
+set go+=a
 
 """ moving around, searching and patterns
 set gdefault    " search with 'g' option by default
@@ -48,6 +49,7 @@ set mouse=a
 
 """ messages and info
 set ruler        " show cursor position always
+set colorcolumn=80
 set noerrorbells " don't beep
 set showcmd      " show command keys in status line
 set visualbell   " don't beep
@@ -63,16 +65,22 @@ set undolevels=1000            " use many muchos levels of undo
 set textwidth=80
 set formatoptions=qrn1t
 set wrapmargin=0
+nnoremap <Leader><Tab> :%retab!
+vnoremap <Leader>c "*y
 
 """ tabs and indenting
 set autoindent    " always set autoindenting on
 set smartindent
 set showtabline=2 " show tab line always
 set noexpandtab
+" set expandtab
 set tabstop=4
 set softtabstop=0
 set shiftwidth=4  " number of spaces to use for autoindenting
 set shiftround    " use multiple of shiftwidth when indenting with '<<' and '>>'
+
+""" buffers
+nnoremap <Leader>b :ls<CR>:b<Space>
 
 """ folding
 " set foldmethod=syntax
@@ -93,11 +101,12 @@ let maplocalleader="\<space>"
 " This allows buffers to be hidden if you've modified a buffer.
 " This is almost a must if you wish to use buffers in this way.
 set hidden
+set noswapfile
 set autoread    " automatically reload files changed outside of vim
 set autowrite   " automatically :write before running commands
-set noswapfile
 set nobackup
 set nowritebackup
+set backupcopy=yes
 
 """ command line editing
 set history=1000 " remember more commands and search history
@@ -115,3 +124,8 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 
 """ various
 " set completeopt-=preview
+
+""" colors
+let g:seoul256_background = 234
+colors seoul256
+highlight ColorColumn ctermbg=18
