@@ -66,6 +66,8 @@ set textwidth=80
 set formatoptions=qrn1t
 set wrapmargin=0
 nnoremap <Leader><Tab> :%retab!
+nnoremap <Leader>w :w!<CR>
+nnoremap <Leader>q :q!<CR>
 vnoremap <Leader>c "*y
 
 """ tabs and indenting

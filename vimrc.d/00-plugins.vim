@@ -16,7 +16,7 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'tpope/vim-surround'
 "Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
-"Plug 'Shougo/neocomplete.vim'
+Plug 'Shougo/deoplete.nvim'
 Plug 'SirVer/ultisnips'
 "Plug 'tpope/vim-unimpaired'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -27,7 +27,7 @@ Plug 'terryma/vim-multiple-cursors'
 "Plug 'schickling/vim-bufonly'
 
 " php
-"Plug 'shawncplus/phpcomplete.vim'
+Plug 'shawncplus/phpcomplete.vim'
 Plug 'StanAngeloff/php.vim'
 Plug 'tobyS/pdv'
 
@@ -49,5 +49,9 @@ Plug 'tpope/vim-fugitive'
 
 " colors
 Plug 'junegunn/seoul256.vim'
+
+" experimental
+Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'roxma/nvim-yarp'
 
 call plug#end()
