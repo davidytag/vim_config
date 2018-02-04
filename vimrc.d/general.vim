@@ -55,6 +55,7 @@ set showcmd      " show command keys in status line
 set visualbell   " don't beep
 set shortmess=at  " decrease cmd line message size
 set cmdheight=1
+highlight ColorColumn ctermbg=0
 
 """ selecting text
 
@@ -128,6 +129,8 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 " set completeopt-=preview
 
 """ colors
-let g:seoul256_background = 234
-colors seoul256
-highlight ColorColumn ctermbg=18
+set termguicolors
+colors base16-eighties
+"let g:seoul256_background = 234
+"colors seoul256
+" colors oceandeep

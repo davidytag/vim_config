@@ -49,6 +49,7 @@ Plug 'tpope/vim-fugitive'
 
 " colors
 Plug 'junegunn/seoul256.vim'
+Plug 'chriskempson/base16-vim'
 
 " experimental
 Plug 'roxma/vim-hug-neovim-rpc'
