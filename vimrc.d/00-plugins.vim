@@ -16,14 +16,14 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'tpope/vim-surround'
 "Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
-Plug 'Shougo/deoplete.nvim'
-Plug 'SirVer/ultisnips'
+"Plug 'Shougo/deoplete.nvim'
+"Plug 'SirVer/ultisnips'
 "Plug 'tpope/vim-unimpaired'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'majutsushi/tagbar'
 "Plug 'tpope/vim-endwise'
 Plug 'godlygeek/tabular'
-Plug 'terryma/vim-multiple-cursors'
+"Plug 'terryma/vim-multiple-cursors'
 "Plug 'schickling/vim-bufonly'
 
 " php
@@ -37,11 +37,17 @@ Plug 'pangloss/vim-javascript'
 Plug 'tobyS/vmustache'
 Plug 'kidonchu/yember'
 
+" sql
+"Plug 'JessicaKMcIntosh/Vim'
+
 " tmux
 "Plug 'christoomey/vim-tmux-navigator'
 
 " markdown
 Plug 'plasticboy/vim-markdown'
+
+" xdebug
+Plug 'joonty/vdebug'
 
 " git
 "Plug 'airblade/vim-gitgutter'
@@ -52,7 +58,7 @@ Plug 'junegunn/seoul256.vim'
 Plug 'chriskempson/base16-vim'
 
 " experimental
-Plug 'roxma/vim-hug-neovim-rpc'
-Plug 'roxma/nvim-yarp'
+"Plug 'roxma/vim-hug-neovim-rpc'
+"Plug 'roxma/nvim-yarp'
 
 call plug#end()

@@ -28,8 +28,11 @@ set listchars=tab:»\ ,trail:·,extends:#,nbsp:·
 set fillchars=vert:\
 
 """ syntax, highlighting and spelling
+autocmd BufNewFile,BufRead *.sql syntax off
+autocmd BufNewFile,BufRead *.sql set re=1
+autocmd BufNewFile,BufRead *.sql syntax on
 set cursorline
-" set synmaxcol=250   " remove lagging with long lines
+set synmaxcol=150   " remove lagging with long lines
 " set spell
 
 """ multiple windows
@@ -75,8 +78,8 @@ vnoremap <Leader>c "*y
 set autoindent    " always set autoindenting on
 set smartindent
 set showtabline=2 " show tab line always
-set noexpandtab
-" set expandtab
+"set noexpandtab
+set expandtab
 set tabstop=4
 set softtabstop=0
 set shiftwidth=4  " number of spaces to use for autoindenting
@@ -134,3 +137,4 @@ colors base16-eighties
 "let g:seoul256_background = 234
 "colors seoul256
 " colors oceandeep
+
