@@ -13,10 +13,13 @@ Plug 'vim-airline/vim-airline-themes'
 "Plug 'tpope/vim-repeat'
 "Plug 'tpope/vim-commentary'
 "Plug 'tpope/vim-dispatch'
-"Plug 'tpope/vim-surround'
+Plug 'tpope/vim-surround'
 "Plug 'jiangmiao/auto-pairs'
 Plug 'scrooloose/nerdcommenter'
 "Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
 "Plug 'SirVer/ultisnips'
 "Plug 'tpope/vim-unimpaired'
 Plug 'nathanaelkane/vim-indent-guides'
@@ -26,16 +29,46 @@ Plug 'godlygeek/tabular'
 "Plug 'terryma/vim-multiple-cursors'
 "Plug 'schickling/vim-bufonly'
 
+" Autocomplete
+"Plug 'prabirshrestha/asyncomplete.vim'
+
+"Plug 'prabirshrestha/async.vim'
+
+"Plug 'prabirshrestha/asyncomplete-flow.vim'
+
+"Plug 'yami-beta/asyncomplete-omni.vim'
+
+"Plug 'runoshun/tscompletejob'
+
+"Plug 'prabirshrestha/asyncomplete-tscompletejob.vim'
+"if executable('ctags')
+    "Plug 'prabirshrestha/asyncomplete-tags.vim'
+    "Plug 'ludovicchabant/vim-gutentags'
+"endif
+
+" " Tags
+" Plug 'ludovicchabant/vim-gutentags'
+Plug 'xolox/vim-easytags'
+Plug 'xolox/vim-misc'
+
 " php
-Plug 'shawncplus/phpcomplete.vim'
-Plug 'StanAngeloff/php.vim'
-Plug 'tobyS/pdv'
+"Plug 'shawncplus/phpcomplete.vim'
+"Plug 'StanAngeloff/php.vim'
+"Plug 'tobyS/pdv'
 
 " javascript
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'pangloss/vim-javascript'
 Plug 'tobyS/vmustache'
-Plug 'kidonchu/yember'
+Plug 'heavenshell/vim-jsdoc'
+
+" " ember
+  Plug 'kidonchu/yember'
+
+" " typescript
+Plug 'leafgarland/typescript-vim'
+Plug 'Quramy/tsuquyomi'
+"Plug 'ahayman/vim-nodejs-complete'
 
 " sql
 "Plug 'JessicaKMcIntosh/Vim'
@@ -47,7 +80,7 @@ Plug 'kidonchu/yember'
 Plug 'plasticboy/vim-markdown'
 
 " xdebug
-Plug 'joonty/vdebug'
+" Plug 'joonty/vdebug'
 
 " git
 "Plug 'airblade/vim-gitgutter'

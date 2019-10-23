@@ -32,7 +32,7 @@ autocmd BufNewFile,BufRead *.sql syntax off
 autocmd BufNewFile,BufRead *.sql set re=1
 autocmd BufNewFile,BufRead *.sql syntax on
 set cursorline
-set synmaxcol=150   " remove lagging with long lines
+set synmaxcol=200   " remove lagging with long lines
 " set spell
 
 """ multiple windows
@@ -52,7 +52,7 @@ set mouse=a
 
 """ messages and info
 set ruler        " show cursor position always
-set colorcolumn=80
+set colorcolumn=100
 set noerrorbells " don't beep
 set showcmd      " show command keys in status line
 set visualbell   " don't beep
@@ -66,9 +66,9 @@ highlight ColorColumn ctermbg=0
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set showmatch                  " set show matching parenthesis
 set undolevels=1000            " use many muchos levels of undo
-set textwidth=80
 set formatoptions=qrn1t
 set wrapmargin=0
+inoremap jj <ESC>
 nnoremap <Leader><Tab> :%retab!
 nnoremap <Leader>w :w!<CR>
 nnoremap <Leader>q :q!<CR>
@@ -80,9 +80,9 @@ set smartindent
 set showtabline=2 " show tab line always
 "set noexpandtab
 set expandtab
-set tabstop=4
+set tabstop=2
 set softtabstop=0
-set shiftwidth=4  " number of spaces to use for autoindenting
+set shiftwidth=2  " number of spaces to use for autoindenting
 set shiftround    " use multiple of shiftwidth when indenting with '<<' and '>>'
 
 """ buffers
@@ -134,6 +134,7 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 """ colors
 set termguicolors
 colors base16-eighties
+highlight Comment guifg=#5fada7 ctermfg=221
 "let g:seoul256_background = 234
 "colors seoul256
 " colors oceandeep
